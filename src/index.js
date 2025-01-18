@@ -1,7 +1,7 @@
 // src/index.js
 const express = require('express');
 const bodyParser = require('body-parser');
-const webhookRoutes = require('./routes/webhook');
+const webhookRoutes = require('../routes/webhook');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
